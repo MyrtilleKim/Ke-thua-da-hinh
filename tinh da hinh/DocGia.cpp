@@ -15,7 +15,7 @@ DocGia::DocGia(const DocGia& dg)
 DocGia::~DocGia()
 {
 }
-
+//comment
 ostream& operator<< (ostream& os, const DocGia& dg){
 	os << "[" << dg._ma << "] - " << dg._hoTen << " - <" << dg._ngayHH << "> - " << dg._gioiTinh;
 	return os;
